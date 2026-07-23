@@ -134,28 +134,27 @@ function LeagueTable() {
 
   return (
     <div className="table_container">
-{tableRows.length === 0 ? (
+      {tableRows.length === 0 ? (
         <p>Loading league table...</p>
       ) : (
-
-      <table>
-        <thead>
-          <tr>
-            {headers.map((header, idx) => (
-              <th key={idx}>{header}</th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {tableRows.map((row, rowIdx) => (
-            <tr key={rowIdx}>
-              {row.map((cell, cellIdx) => (
-                <td key={cellIdx}>{cell}</td>
+        <table>
+          <thead>
+            <tr>
+              {headers.map((header, idx) => (
+                <th key={idx}>{header}</th>
               ))}
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {tableRows.map((row, rowIdx) => (
+              <tr key={rowIdx}>
+                {row.map((cell, cellIdx) => (
+                  <td key={cellIdx}>{cell}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
       )}
     </div>
   );

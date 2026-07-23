@@ -145,6 +145,14 @@ p {
   margin: 20px 230px;
 }
 
+.table_container_c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertical alignment */
+  /* align-items: center; Horizontal alignment */
+  margin: 20px 100px;
+}
+
 /* ul {
   list-style-type: none;
 } */
