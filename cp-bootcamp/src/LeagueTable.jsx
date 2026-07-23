@@ -7,7 +7,7 @@ function LeagueTable() {
   const [headers, setHeaders] = useState([]);
 
   useEffect(() => {
-    fetch(assetUrl(`${import.meta.env.BASE_URL}master_dict.json`))
+    fetch(assetUrl("master_dict.json"))
       .then((response) => {
         if (!response.ok) {
           throw new Error(
@@ -19,9 +19,7 @@ function LeagueTable() {
       .then((textData) => {
         const masterDict = JSON.parse(textData);
 
-        return fetch(
-          assetUrl(import.meta.env.BASE_URL + "bundesliga_table_2022_23.csv"),
-        )
+        return fetch(assetUrl("bundesliga_table_2022_23.csv"))
           .then((response) => {
             if (!response.ok) {
               throw new Error(
