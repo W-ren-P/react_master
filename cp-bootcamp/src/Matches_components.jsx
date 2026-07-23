@@ -60,7 +60,7 @@ function Matches_components({ limit = 10 }) {
     <>
       <p className="page_title">Matches</p>
 
-      <div className="table_container">
+      <div className="table_container_b">
         <table>
           <thead>
             <tr>
