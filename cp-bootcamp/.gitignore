@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Ensure data files are included when gh-pages deploys from dist/
+!master_dict.json
+!bundesliga_table_2022_23.csv
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
