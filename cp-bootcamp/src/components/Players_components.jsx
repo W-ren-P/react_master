@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { supabase } from "./supabaseClient";
+import { supabase } from "../supabaseClient";
 
 const assetUrl = (file) => `${import.meta.env.BASE_URL}${file}`;
 
