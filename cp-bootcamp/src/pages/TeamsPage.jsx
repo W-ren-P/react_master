@@ -1,4 +1,4 @@
-import Teams_components from "./Teams_components";
+import Teams_components from ".components/Teams_components";
 
 function TeamsPage() {
   return (
