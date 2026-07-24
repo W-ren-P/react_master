@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { Route, Routes } from "react-router";
 
-import bundImg from "./assets/bundesliga_logo.jpg";
-
 import "./App.css";
 import Header from "./components/Header";
 import HomePage_LeagueTable from "./pages/HomePage_LeagueTable";
