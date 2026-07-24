@@ -5,13 +5,13 @@ import bundImg from "./assets/bundesliga_logo.jpg";
 
 import "./App.css";
 import Header from "./Header";
-import LeagueTable from "./LeagueTable";
-import Teams_components from "./Teams_components";
-import TeamsPage from "./TeamsPage";
-import Players_components from "./Players_components";
-import PlayersPage from "./PlayersPage";
-import Matches_components from "./Matches_components";
-import MatchesPage from "./MatchesPage";
+import LeagueTable from "./pages/HomePage_LeagueTable";
+import Teams_components from "./components/Teams_components";
+import TeamsPage from "./pages/TeamsPage";
+import Players_components from "./components/Players_components";
+import PlayersPage from "./pages/PlayersPage";
+import Matches_components from "./components/Matches_components";
+import MatchesPage from "./pages/MatchesPage";
 
 function App() {
   return (
