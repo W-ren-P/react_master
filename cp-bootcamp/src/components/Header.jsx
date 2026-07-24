@@ -1,4 +1,4 @@
-import bundImg from "./assets/bundesliga_logo.jpg";
+import bundImg from "../assets/bundesliga_logo.jpg";
 import { NavLink } from "react-router";
 
 function Header() {
