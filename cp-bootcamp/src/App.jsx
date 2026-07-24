@@ -5,7 +5,7 @@ import bundImg from "./assets/bundesliga_logo.jpg";
 
 import "./App.css";
 import Header from "./Header";
-import LeagueTable from "./pages/HomePage_LeagueTable";
+import HomePage_LeagueTable from "./pages/HomePage_LeagueTable";
 import Teams_components from "./components/Teams_components";
 import TeamsPage from "./pages/TeamsPage";
 import Players_components from "./components/Players_components";
@@ -18,7 +18,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<LeagueTable />} />
+        <Route path="/" element={<HomePage_LeagueTable />} />
         <Route path="/teams" element={<TeamsPage />} />
         <Route path="/players" element={<PlayersPage />} />
         <Route path="/matches" element={<MatchesPage />} />
