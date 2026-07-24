@@ -1,4 +1,4 @@
-import Players_components from "..components/Players_components";
+import Players_components from "../components/Players_components";
 
 function PlayersPage() {
   return (
