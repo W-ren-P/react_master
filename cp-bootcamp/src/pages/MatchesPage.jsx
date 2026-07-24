@@ -1,4 +1,4 @@
-import Matches_components from "./components/Matches_components";
+import Matches_components from "../components/Matches_components";
 import { useEffect, useState } from "react";
 
 function MatchesPage() {
