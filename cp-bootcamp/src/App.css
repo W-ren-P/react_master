@@ -44,6 +44,11 @@ nav {
   margin-left: 20px;
 }
 
+li.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 /* Main page */
 
 .center-wrapper {
